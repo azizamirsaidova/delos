@@ -4,10 +4,10 @@ Python Flask application that communicates MongoDB, containerizing with Docker a
 This tasks follows three main steps:
 
 1. **Create the application:** Flask application is run in app.py file.
-````````````````
+
 * requirements.txt  - Flask, Flask-PyMongo
 * app.py - Flask application is run in this Python file
-````````````
+
 
 2. **Containerize the application:** Docker image of the app is created in this stage where docker image is build using the Dockerfile, and pushed to the DockerHub. My DockerHub login is azizamir.
 
@@ -22,7 +22,7 @@ Deployment is  scaled using kubectl scale.
 Kubectl deployments: 
 <img width="495" alt="Screen Shot 2022-03-21 at 3 45 02 PM" src="https://user-images.githubusercontent.com/57295556/159351846-6017fdfb-ac93-45bb-b82d-74b07cfe6723.png">
 
-```taskapp-serv.yaml``` service is defined. 
+taskapp-serv.yaml service is defined. 
 4. **MongoDB deployment and service is created:** 
 
 
