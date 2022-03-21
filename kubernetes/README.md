@@ -6,3 +6,6 @@ Kubernetes pods deployed using three ways:
 `````
 docker build -t [image name] .
 ``````
+3. **Deploying the app**: Deployment.yaml is created which includes both the service and deployment creating 5 number of instances. The service and deployment is created using the following command:
+``````
+kubectl apply -f deployment.yaml 
