@@ -8,7 +8,10 @@ The notebook is divided into **five main** parts:
 * Evaluating the Model
 * Training the Model 
 
-[Classify MNIST with Tensorflow Video.mp4]
+
+https://user-images.githubusercontent.com/57295556/161634469-6f2f204d-7d1c-4dce-830c-05b298bb5178.mp4
+
+
 
 Dependencies required for this notebook:
 
